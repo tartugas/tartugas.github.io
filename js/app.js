@@ -25,7 +25,7 @@ function parallax(e, target, layer) {
 //DOC READY
 $(document).ready(function() {
 	//particles
-	particlesJS.load('section1', 'particlesjs-config.json', function() {
+	particlesJS.load('section1', 'js/particlesjs-config.json', function() {
 	  console.log('callback - particles.js config loaded');
 	});
 	//form
