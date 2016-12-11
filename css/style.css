@@ -1,3 +1,10 @@
+/* Particles */
+.particles-js-canvas-el {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
 @font-face {
 	font-family: DINPro;
 	src: url(../font/DINPro-Light.otf);
