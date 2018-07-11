@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="36px" viewBox="0 0 39 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>sketch</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sketch" fill-rule="nonzero">
+            <polygon id="Shape" fill="#FDB300" points="8.49193553 1.18467859 19.4606855 0 30.4294355 1.18467859 38.921371 12.8306714 19.4606855 35.982102 0 12.8306714"></polygon>
+            <g id="Group" transform="translate(0.000000, 12.830671)">
+                <polygon id="Shape" fill="#EA6C00" points="7.8825533 0 19.460703 23.1514382 0 0"></polygon>
+                <polygon id="Shape" fill="#EA6C00" transform="translate(29.191002, 11.575719) scale(-1, 1) translate(-29.191002, -11.575719) " points="27.3432037 0 38.9213534 23.1514382 19.4606504 0"></polygon>
+                <polygon id="Shape" fill="#FDAD00" points="7.8825533 0 31.0388528 0 19.460703 23.1514382"></polygon>
+            </g>
+            <g id="Group">
+                <polygon id="Shape" fill="#FDD231" points="19.460703 0 8.49190355 1.18466292 7.8825533 12.8306629"></polygon>
+                <polygon id="Shape" fill="#FDD231" transform="translate(25.249718, 6.415331) scale(-1, 1) translate(-25.249718, -6.415331) " points="31.038793 0 20.0699935 1.18466292 19.4606433 12.8306629"></polygon>
+                <polygon id="Shape" fill="#FDAD00" transform="translate(34.675402, 7.007663) scale(-1, 1) translate(-34.675402, -7.007663) " points="30.4294004 12.8306629 38.9214029 1.18466292 38.3119537 12.8306629"></polygon>
+                <polygon id="Shape" fill="#FDAD00" points="0 12.8306629 8.49190355 1.18466292 7.8825533 12.8306629"></polygon>
+                <polygon id="Shape" fill="#FEEEB7" points="19.460703 0 7.8825533 12.8306629 31.0388528 12.8306629"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

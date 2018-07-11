@@ -1,135 +1,164 @@
-<!doctype html>
-<html class="no-js" lang="en">
+﻿<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>index.html</title>
-  <link rel="icon" href="img/favicon.png">
-  <meta name="viewport" content="width=device-width">
-  <script src="js/jquery-1.7.1.min.js"></script>
-  <script src="js/jquery.masonry.min.js"></script>
-  <script src="js/modernizr-2.5.3.min.js"></script>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ihar Hrybko — UX / UI Designer</title>
+    <link rel="icon" href="img/favicon.png?v=2">
+	<link rel="stylesheet" href="css/pagepiling.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/loader.css">
+	<link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.pagepiling.min.js"></script>
+	<script type="text/javascript" src="js/typed.min.js"></script>
+	<script type="text/javascript" src="js/jquery.lettering.js"></script>
+	<script type="text/javascript" src="js/jquery.textillate.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 </head>
 <body>
-  <header class="container">
-  </header>
-  
-  <div id="content" class="container clearfix">
 
-    <div class="item">
-      <a href="img/b14.png" class="fancybox"><img src="img/s14.png" alt="" /></a>
-    </div>
+<div id="pagepiling">
+	<div id="intro-back">
+		<div class="loader" data-loader="circle"></div>
+	</div>
+	<div id="link-overlay"></div>
+	<div class="section s1" id="section1" data-menuanchor="1">
+		<div class="item main-item item-black animated">
+			<div class="item-text main-text text-bold animated" style="animation-delay: 0.2s;">
+				Hi, I’m a designer focused on<br>interface design, <span class="tlt">animation</span><br>gamedev and branding.<br>I use <span class="typed"></span>
+			</div>
+		</div>
+		<div class="scroll-down animated">
+			<div class="bounce-scroll">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 16 16">
+					<path fill="#000" d="M12.5 8.6l-3.5 3.6v-12.2h-2v12.2l-3.5-3.6-1.4 1.5 5.9 5.9 5.9-5.9z"></path>
+				</svg>
+			</div>
+		</div>
+	</div>
+	<div class="section s-openledger" id="section2" data-menuanchor="2">
+		<div class="fullsize-back-ol"></div>
+		<div class="openledger-img">
+			<img class="openledger-img-i" src="items/item2/img/ol1.png">
+		</div>
+		<a id="page1" href="javascript:delay('items/item2/page.html')" class="p-link"><div class="link-overlay"></div></a>
+		<div class="item item-openledger animated">
+			<div class="item-text text-bold animated" style="animation-delay: 0.2s;">
+				Decentralized asset exchange website
+			</div>
+			<!-- <div class="see-more animated" style="animation-delay: 1.8s;">кейс</div> -->
+		</div>
+	</div>
+	<div class="section s-logo1" id="section3" data-menuanchor="3">
+		<!-- <div id='music-bars'>
+			<span></span>
+		</div> -->
+		<!-- <div class="fullsize-back-logo1"></div> -->
+		<div class="logo1-img">
+			<img class="logo1-img-i" src="items/item3/img/img1.jpg">
+		</div>
+		<a href="javascript:delay('items/item3/page.html')" class="p-link"><div class="link-overlay"></div></a>
+		<div class="item item-logo1 animated">
+			<div class="item-text text-bold animated" style="animation-delay: 0.2s;">
+				Various graphic<br>design projects
+			</div>
+		</div>
+	</div>
+	<div class="section s-syren-parallax" id="section4" data-menuanchor="4">
+		<div class="parallax-img">
+			<img id="l1" class="parallax-layer" src="items/item4/img/sp-1.png">
+			<img id="l2" class="parallax-layer" src="items/item4/img/sp-2.png">
+			<img id="l3" class="parallax-layer" src="items/item4/img/sp-3.png">
+			<img id="l4" class="parallax-layer" src="items/item4/img/sp-4.png">
+			<img id="l5" class="parallax-layer" src="items/item4/img/sp-5.png">
+			<img id="l6" class="parallax-layer" src="items/item4/img/sp-6.png">
+			<img id="l7" class="parallax-layer" src="items/item4/img/sp-7.png">
+			<img id="l8" class="parallax-layer" src="items/item4/img/sp-8.png">
+			<img id="l9" class="parallax-layer" src="items/item4/img/sp-9.png">
+			<img id="l10" class="parallax-layer" src="items/item4/img/sp-10.png">
+			<img id="l11" class="parallax-layer" src="items/item4/img/sp-11.png">
+		</div>
+		<a href="javascript:delay('items/item4/page.html')" class="p-link"><div class="link-overlay"></div></a>
+		<div class="item item-syren animated">
+			<div class="item-text text-bold animated" style="animation-delay: 0.2s;">
+				Virtual synthesizer interface
+			</div>
+		</div>
+	</div>
+	<div class="section s-prestigio" id="section5" data-menuanchor="5">
+		<div class="prestigio-img">
+			<img class="prestigio-img-i" src="items/item5/img/p1.jpg">
+		</div>
+		<a href="javascript:delay('items/item5/page.html')" class="p-link"><div class="link-overlay"></div></a>
+		<div class="item item-prestigio animated">
+			<div class="item-text text-bold animated" style="animation-delay: 0.2s;">
+				Time-killer game application
+			</div>
+		</div>
+	</div>
+	<div class="section s-reaper-parallax" id="section6" data-menuanchor="6">
+		<div class="reaper-parallax-img">
+			<img id="rl1" class="reaper-parallax-layer" src="items/item6/img/rp-1.png">
+			<img id="rl2" class="reaper-parallax-layer" src="items/item6/img/rp-2.png">
+			<img id="rl3" class="reaper-parallax-layer" src="items/item6/img/rp-3.png">
+			<img id="rl4" class="reaper-parallax-layer" src="items/item6/img/rp-4.png">
+			<img id="rl5" class="reaper-parallax-layer" src="items/item6/img/rp-5.png">
+			<img id="rl6" class="reaper-parallax-layer" src="items/item6/img/rp-6.png">
+			<img id="rl7" class="reaper-parallax-layer" src="items/item6/img/rp-7.png">
+			<img id="rl8" class="reaper-parallax-layer" src="items/item6/img/rp-8.png">
+			<img id="rl9" class="reaper-parallax-layer" src="items/item6/img/rp-9.png">
+			<img id="rl10" class="reaper-parallax-layer" src="items/item6/img/rp-10.png">
+			<img id="rl11" class="reaper-parallax-layer" src="items/item6/img/rp-11.png">
+			<img id="rl12" class="reaper-parallax-layer" src="items/item6/img/rp-12.png">
+			<img id="rl13" class="reaper-parallax-layer" src="items/item6/img/rp-13.png">
+		</div>
+		<a href="javascript:delay('items/item6/page.html')" class="p-link"><div class="link-overlay"></div></a>
+		<div class="item item-reaper animated">
+			<div class="item-text text-bold animated" style="animation-delay: 0.2s;">
+				Cockos Reaper dark interface
+			</div>
+		</div>
+	</div>
+	<div class="section s-maze" id="section7" data-menuanchor="7">
+		<div class="maze-img">
+			<img src="items/item7/img/p1.jpg">
+		</div>
+		<a href="javascript:delay('items/item7/page.html')" class="p-link"><div class="link-overlay"></div></a>
+		<div class="item item-maze animated">
+			<div class="item-text text-bold animated" style="animation-delay: 0.2s;">
+				Gem Puzzle game application
+			</div>
+		</div>
+	</div>
 
-    <div class="item">
-      <a href="img/b1.png" class="fancybox"><img src="img/s1.png" alt="" /></a>
-    </div>
+	<div class="section s-adslist" id="section8" data-menuanchor="8">
+		<div class="adslist-img">
+			<img src="items/item8/img/a1.png">
+		</div>
+		<a href="javascript:delay('items/item8/page.html')" class="p-link"><div class="link-overlay"></div></a>
+		<div class="item item-adslist animated">
+			<div class="item-text text-bold animated" style="animation-delay: 0.2s;">
+				Advertising aggregator website
+			</div>
+		</div>
+	</div>
+	<div class="section s-bbw" id="section9" data-menuanchor="9">
+		<div class="bbw-img">
+			<img src="items/item9/img/b1.png">
+			<img src="items/item9/img/b2.png">
+		</div>
+		<a href="javascript:delay('items/item9/page.html')" class="p-link"><div class="link-overlay"></div></a>
+		<div class="item item-bbw animated">
+			<div class="item-text text-bold animated" style="animation-delay: 0.2s;">
+				Sports betting terminal interface 
+			</div>
+		</div>
+	</div>
+</div>
 
-    <div class="item">
-      <a href="img/b19.png" class="fancybox"><img src="img/s19.png" alt="" /></a>
-    </div>
-    
-    <div class="item">
-      <a href="img/b4.png" class="fancybox"><img src="img/s4.png" alt="" /></a>
-    </div>
-    
-    <div class="item">
-      <a href="img/b2.png" class="fancybox"><img src="img/s2.png" alt="" /></a>
-    </div>
-	
-	<div class="item">
-      <a href="img/b17.png" class="fancybox"><img src="img/s17.png" alt="" /></a>
-    </div>
-    
-    <div class="item">
-      <a href="img/b7.png" class="fancybox"><img src="img/s7.png" alt="" /></a>
-    </div>
-    
-    <div class="item">
-      <a href="img/b15.png" class="fancybox"><img src="img/s15.png" alt="" /></a>
-    </div>
-    
-    <div class="item">
-      <a href="img/b6.png" class="fancybox"><img src="img/s6.png" alt="" /></a>
-    </div>
-
-    <div class="item">
-      <a href="img/b3.png" class="fancybox"><img src="img/s3.png" alt="" /></a>
-    </div>
-
-    <div class="item">
-       <a href="img/b12.png" class="fancybox"><img src="img/s12.png" alt="" /></a>
-    </div>
-
-    <div class="item">
-      <a href="img/b9.png" class="fancybox"><img src="img/s9.png" alt="" /></a>
-    </div>
-	
-	<div class="item">
-       <a href="img/b23.png" class="fancybox"><img src="img/s23.png" alt="" /></a>
-    </div>
-	
-	<div class="item">
-      <a href="img/b21.png" class="fancybox"><img src="img/s21.png" alt="" /></a>
-    </div>
-	
-    <div class="item">
-      <a href="img/b5.png" class="fancybox"><img src="img/s5.png" alt="" /></a>
-    </div>
-	
-	<div class="item">
-      <a href="img/b18.png" class="fancybox"><img src="img/s18.png" alt="" /></a>
-    </div>
-	
-	<div class="item">
-      <a href="img/b13.png" class="fancybox"><img src="img/s13.png" alt="" /></a>
-    </div>
-
-    <div class="item">
-      <a href="img/b10.png" class="fancybox"><img src="img/s10.png" alt="" /></a>
-    </div>
-	
-	<div class="item">
-      <a href="img/b25.png" class="fancybox"><img src="img/s25.png" alt="" /></a>
-    </div>
-
-    <div class="item">
-      <a href="img/b8.png" class="fancybox"><img src="img/s8.png" alt="" /></a>
-    </div>
-	
-	<div class="item">
-      <a href="img/b20.png" class="fancybox"><img src="img/s20.png" alt="" /></a>
-    </div>
-	
-	<div class="item">
-       <a href="img/b22.png" class="fancybox"><img src="img/s22.png" alt="" /></a>
-    </div>
-	
-	<div class="item item2x">
-      <a href="img/b16.png" class="fancybox"><img src="img/s16.png" alt="" /></a>
-    </div>
-	
-	<div class="item">
-       <a href="img/b24.png" class="fancybox"><img src="img/s24.png" alt="" /></a>
-    </div>
-	
-	<div class="item">
-      <a href="img/b11.png" class="fancybox"><img src="img/s11.png" alt="" /></a>
-    </div>
-
-  </div>
-  
-  
-  <script src="js/script.js"></script>
-  <script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
-  <script>
-	  $(document).ready(function() {
-		  $('.fancybox').fancybox({
-			  	padding : 0
-        	});
-		  });
-  </script>
 </body>
 </html>
