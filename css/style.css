@@ -984,6 +984,28 @@ input, textarea {
 	color: rgba(78, 144, 221, 0.9);
 	letter-spacing: 16px;
 }
+/* playout */
+.s-playout {
+    background: linear-gradient(180deg, #f7f9fa, #f5f7f9);
+}
+.item-playout {
+	box-shadow: none;
+	border: 6px solid #151c23;
+	background: none;
+}
+.item-playout .item-text {
+	color: #151c23;
+	letter-spacing: 16px;
+}
+.playout-img {
+	position: relative;
+}
+.playout-img img {
+	opacity: 1;
+    position: absolute;
+	top: 60px;
+    margin-left: -470px;
+}
 /*NEW*/
 #music-bars {
 	position: absolute;

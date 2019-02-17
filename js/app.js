@@ -150,7 +150,7 @@ $(document).ready(function() {
 			'bulletsColor': '#000'
 		},
 		loopBottom: true,
-		anchors: ['1', '2', '3', '4', '5', '6', '7', '8', '9'],
+		anchors: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
 		scrollingSpeed: 1000,
 		easing: 'swing',
 		afterLoad: function(anchorLink, index){
@@ -190,8 +190,19 @@ $(document).ready(function() {
 					next();
 				});
 			}
-			//openledger
+			// playout
 			if(nextIndex == 2){
+				$("#pp-nav").find('span').css('border-color', '#151c23').delay(20).queue(function(next){
+					$('#pp-nav').find('.active').find('span').css('background-color', '#151c23')
+					next();
+				});
+				$('.playout-img-i').addClass('animated fadeInUp');
+			}
+			if(index == 2){
+				$('.playout-img-i').removeClass('animated fadeInUp');
+			}
+			//openledger
+			if(nextIndex == 3){
 				$("#pp-nav").find('span').css('border-color', 'rgba(215, 215, 242, 0.1)').delay(20).queue(function(next){
 					$('#pp-nav').find('.active').find('span').css('border-color', 'rgba(78, 144, 221, 0.9)')
 					$('#pp-nav').find('.active').find('span').css('background-color', 'rgba(78, 144, 221, 0.9)')
@@ -201,12 +212,12 @@ $(document).ready(function() {
 				$('.see-more').addClass('fadeIn');
 				// $('.fullsize-back-ol').addClass('animated bounceInDown');
 			}
-			if(index == 2){
+			if(index == 3){
 				$('.openledger-img-i').removeClass('animated fadeInUp');
 				// $('.fullsize-back-ol').removeClass('animated bounceInDown');
 			}
 			//NEW
-			if(nextIndex == 3){
+			if(nextIndex == 4){
 				// $('#music-bars span').each(function(i) {
 				// 	equalizer($(this));
 				// });
@@ -218,12 +229,12 @@ $(document).ready(function() {
 				$('.logo1-img-i').addClass('animated fadeInUp');
 				// $('.fullsize-back-ol').addClass('animated bounceInDown');
 			}
-			if(index == 3){
+			if(index == 4){
 				$('.logo1-img-i').removeClass('animated fadeInUp');
 				// $('.fullsize-back-ol').removeClass('animated bounceInDown');
 			}
 			//syren
-			if(nextIndex == 4){
+			if(nextIndex == 5){
 				$("#pp-nav").find('span').css('border-color', 'rgba(215, 215, 242, 0.1)').delay(20).queue(function(next){
 					$('#pp-nav').find('.active').find('span').css('border-color', 'rgba(234, 6, 137, 1)')
 					$('#pp-nav').find('.active').find('span').css('background-color', 'rgba(234, 6, 137, 1)')
@@ -233,14 +244,14 @@ $(document).ready(function() {
 					$(this).animate({ opacity: 1, top: "300px" }, index * 100 + 700);
 				});
 			}
-			if(index == 4){
+			if(index == 5){
 				$(".parallax-layer").each(function(index){
 					$(this).animate({ opacity: 0, top: "-300px" }, index * 100 + 700);
 				});
 				//$('.s-syren-parallax').unbind();
 			}
 			//prestigio
-			if(nextIndex == 5){
+			if(nextIndex == 6){
 				$("#pp-nav").find('span').css('border-color', 'rgba(0, 0, 0, 0.9)').delay(20).queue(function(next){
 					$('#pp-nav').find('.active').find('span').css('border-color', 'rgba(0, 0, 0, 0.9)')
 					$('#pp-nav').find('.active').find('span').css('background-color', 'rgba(0, 0, 0, 0.9)')
@@ -248,11 +259,11 @@ $(document).ready(function() {
 				});
 				$('.prestigio-img').addClass('animated fadeInRight')
 			}
-			if(index == 5){
+			if(index == 6){
 				$('.prestigio-img').removeClass('animated fadeInRight')
 			}
 			//reaper
-			if(nextIndex == 6){
+			if(nextIndex == 7){
 				$("#pp-nav").find('span').css('border-color', 'rgba(215, 215, 242, 0.1)').delay(20).queue(function(next){
 					$('#pp-nav').find('.active').find('span').css('border-color', 'rgba(75, 255, 135, 0.98)')
 					$('#pp-nav').find('.active').find('span').css('background-color', 'rgba(75, 255, 135, 0.98)')
@@ -262,14 +273,14 @@ $(document).ready(function() {
 					$(this).animate({ opacity: 1, top: "400px" }, index * 100 + 700);
 				});
 			}
-			if(index == 6){
+			if(index == 7){
 				$(".reaper-parallax-layer").each(function(index){
 					$(this).animate({ opacity: 0, top: "-400px" }, index * 100 + 700);
 				});
 				//$('.s-reaper-parallax').unbind();
 			}
 			//maze
-			if(nextIndex == 7){
+			if(nextIndex == 8){
 				$("#pp-nav").find('span').css('border-color', 'rgba(240, 154, 121, 0.95)').delay(20).queue(function(next){
 					$('#pp-nav').find('.active').find('span').css('border-color', 'rgba(240, 154, 121, 0.95)')
 					$('#pp-nav').find('.active').find('span').css('background-color', 'rgba(240, 154, 121, 0.95)')
@@ -277,11 +288,11 @@ $(document).ready(function() {
 				});
 				$('.maze-img').addClass('animated fadeIn')
 			}
-			if(index == 7){
+			if(index == 8){
 				$('.maze-img').removeClass('animated fadeIn')
 			}
 			//adslist
-			if(nextIndex == 8){
+			if(nextIndex == 9){
 				$("#pp-nav").find('span').css('border-color', 'rgba(249, 47, 0, 0.6)').delay(20).queue(function(next){
 					$('#pp-nav').find('.active').find('span').css('border-color', 'rgba(249, 47, 0, 0.9)')
 					$('#pp-nav').find('.active').find('span').css('background-color', 'rgba(249, 47, 0, 0.9)')
@@ -289,11 +300,11 @@ $(document).ready(function() {
 				});
 				$('.adslist-img').addClass('animated fadeInRight')
 			}
-			if(index == 8){
+			if(index == 9){
 				$('.adslist-img').removeClass('animated fadeInRight')
 			}
 			//bbw
-			if(nextIndex == 9){
+			if(nextIndex == 10){
 				$("#pp-nav").find('span').css('border-color', 'rgba(17, 11, 21, 0.9)').delay(20).queue(function(next){
 					$('#pp-nav').find('.active').find('span').css('border-color', 'rgba(17, 11, 21, 0.9)')
 					$('#pp-nav').find('.active').find('span').css('background-color', 'rgba(17, 11, 21, 0.9)')
@@ -305,19 +316,10 @@ $(document).ready(function() {
 					delay: 3000
 				});
 			}
-			if(index == 9){
+			if(index == 10){
 				$('.bbw-img').removeClass('animated fadeInUp')
 				$('.bbw-img').cycle('destroy');
 			}
-			//mail
-			// if(nextIndex == 9){
-			// 	$("#pp-nav").find('span').css('border-color', 'rgba(0, 0, 0, 0.9)').delay(20).queue(function(next){
-			// 		$('#pp-nav').find('.active').find('span').css('border-color', 'rgba(0, 0, 0, 0.9)')
-			// 		$('#pp-nav').find('.active').find('span').css('background-color', 'rgba(0, 0, 0, 0.9)')
-			// 		next();
-			// 	});
-			// }
-
 		},
 		afterRender: function(){
 			$('#intro-back').animate({
